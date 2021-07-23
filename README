@@ -1,0 +1,15 @@
+###Project in progress.
+Project tries to catch arbitrage opportunities by leveraging one of the fastest exchanges and the fastest blockchain Solana.
+Thanks to FTX supporting many blockchains and coins and wrapping them into SPL tokens, there can be arb opportunities.
+Code has been written in a rush to catch the market volatility and opportunity. It is highly adjustable depending on the trader's equity and needs.
+In the current form, it seems to work without any bugs but it is unbelievably messy and needs improvements to make it faster and more efficient.
+
+
+###TO DOs:
+*Discard the duplications
+*Add classes for the dataset
+*Create def's for all the functions
+*Create a universal bot that loops through all the coins that can be arbed between ftx and serum dex
+*Tweak and create the whole process for the websocket listening to achieve faster and more efficient process
+*Add transfer tokens fn
+*Current arb is for one way, meaning buy from serum sell on ftx bc it is faster. However, the other route is also almost finished and will be added later on.
