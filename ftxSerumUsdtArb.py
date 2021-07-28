@@ -24,8 +24,8 @@ import requests
 from Config import FTX_API, FTX_SECRET, solletKeyPair, ftxSubAccountName, usdcPubKey, solletPubKey, usdtPubKey
 
 
-pp = 69
-while pp == 69:
+p = 00
+while p == 00:
     try:
         client = ftx.FtxClient(api_key=FTX_API, api_secret=FTX_SECRET, subaccount_name=ftxSubAccountName)
 
